@@ -1,0 +1,4 @@
+aoc -march=emulator device/matrix_mult.cl -o bin/matrix_mult.aocx -fp-relaxed -fpc -no-interleaving=default --board p385a_sch_ax115
+make
+
+
