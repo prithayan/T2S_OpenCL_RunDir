@@ -1,0 +1,8 @@
+Compiler Command: aoc -march=emulator device/matrix_mult.cl -o bin/matrix_mult.aocx -fp-relaxed -fpc -no-interleaving=default --board p385a_sch_ax115
+/home/pbarua3/intel/T2S_toMerge_withNitish/T2S/Halide_CoreIR/tutorial/temporal_stencil_fpgaRUN/device/matrix_mult.cl:64:34: warning: declaring kernel argument with no 'restrict' may lead to low kernel performance
+ __address_space__A const float *_A,
+                                 ^
+/home/pbarua3/intel/T2S_toMerge_withNitish/T2S/Halide_CoreIR/tutorial/temporal_stencil_fpgaRUN/device/matrix_mult.cl:65:33: warning: declaring kernel argument with no 'restrict' may lead to low kernel performance
+ __address_space__inputA float *_inputA
+                                ^
+2 warnings generated.
